@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3307/clothify_db
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        highlight_sql: true
+  mail:
+    properties:
+      mail:
+        SECRET_KEY: "AB_static_base_key_1e4d2a8bcf384b12a7c9d36e8dba9c5f"
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  server:
+    port=8080:
