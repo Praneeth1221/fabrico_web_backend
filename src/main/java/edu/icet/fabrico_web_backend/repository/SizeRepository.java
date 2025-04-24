@@ -1,4 +1,4 @@
-package edu.icet.fabrico_web_backend.repository.Impl;
+package edu.icet.fabrico_web_backend.repository;
 
 import edu.icet.fabrico_web_backend.entity.SizeEntity;
 import org.springframework.data.repository.CrudRepository;
