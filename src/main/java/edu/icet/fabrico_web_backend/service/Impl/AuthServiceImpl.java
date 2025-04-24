@@ -6,7 +6,7 @@ import edu.icet.fabrico_web_backend.dto.UpdatePasswordDto;
 import edu.icet.fabrico_web_backend.dto.User;
 import edu.icet.fabrico_web_backend.entity.UserEntity;
 import edu.icet.fabrico_web_backend.exception.Impl.ErrorException;
-import edu.icet.fabrico_web_backend.repository.Impl.UserRepository;
+import edu.icet.fabrico_web_backend.repository.UserRepository;
 import edu.icet.fabrico_web_backend.repository.UserJdbcRepository;
 import edu.icet.fabrico_web_backend.service.AuthService;
 import edu.icet.fabrico_web_backend.template.SuccessfulResponsesData;
